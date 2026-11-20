@@ -1,0 +1,28 @@
+# Environnements Python
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+
+# Pytest et couverture
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+
+# MLflow local
+mlruns/
+mlartifacts/
+mlflow.db
+mlflow.db-shm
+mlflow.db-wal
+
+# Fichiers locaux
+.env
+.env.*
+!.env.example
+*.log
+
+# Editeurs
+.vscode/
+.idea/
